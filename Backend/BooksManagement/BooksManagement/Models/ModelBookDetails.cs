@@ -4,7 +4,7 @@ namespace BooksManagement.Models
 {
     public class ModelBookDetails
     {
-        public int? Id { get; set; }
+        public Guid? Id { get; set; }
 
         [Required(ErrorMessage = "Title is required")]
         [StringLength(100)]
